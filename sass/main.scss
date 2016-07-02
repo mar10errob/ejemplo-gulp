@@ -1,0 +1,35 @@
+$width: 100%;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+}
+#logo{
+    // float: left;
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+}
+nav {
+    width: $width;
+    ul {
+        background-color: #0057ff;
+        li {
+            padding: 10px 20px;
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+        li:hover{
+            background-color: #136605;
+            a{
+                color:#ffffff;
+            }
+        }
+    }
+
+}
